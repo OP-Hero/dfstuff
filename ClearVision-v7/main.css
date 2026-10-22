@@ -3084,6 +3084,9 @@ code {
 .childWrapper__6e9f8 {
   background-color: var(--hsl-card-shading);
 }
+.childWrapper__6e9f8 path {
+  display: none;
+}
 .wrapper__6e9f8:hover .childWrapper__6e9f8 {
   background-color: var(--hsl-hover-color);
 }
