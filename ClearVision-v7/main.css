@@ -3084,11 +3084,6 @@ code {
 .childWrapper__6e9f8 {
   background-color: var(--hsl-card-shading);
 }
-.childWrapper__6e9f8 > svg {
-  width: 100%;
-  height: 100%;
-  background: var(--home-icon) center/var(--home-size) no-repeat;
-}
 .childWrapper__6e9f8 path {
   display: none;
 }
@@ -3507,8 +3502,6 @@ code {
   --user-modal-size: var(--background-size);
   --user-modal-attachment: var(--background-attachment);
   --user-modal-filter: var(--background-filter);
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
-  --home-size: cover;
   --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
