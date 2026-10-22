@@ -2,8 +2,8 @@
  * @name ClearVision
  */
 /* IMPORT CSS */
-@import url("https://clearvision.github.io/ClearVision-v7/main.css");
-@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+@import url("https://raw.githubusercontent.com/OP-Hero/dfstuff/3e98dc44a2e72d360127f48e58250634809e0d99/ClearVision-v7/main.css");
+@import url("https://raw.githubusercontent.com/OP-Hero/dfstuff/3e98dc44a2e72d360127f48e58250634809e0d99/ClearVision-v7/betterdiscord.css");
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
@@ -36,9 +36,6 @@
   --user-modal-size: var(--background-size); /* user modal size (px) [default: var(--background-size)] */
   --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
   --user-modal-filter: var(--background-filter); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
-  /* HOME ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
-  --home-size: cover; /* home button icon size (px) [default:cover] */
   /* FONTS */
   --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
