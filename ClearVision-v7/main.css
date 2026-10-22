@@ -3174,9 +3174,6 @@ code {
 .wrapper__29444:is(.wrapper__29444, .muted__29444):hover .addButtonIcon__29444 {
   color: var(--hsl-hover-color);
 }
-.icon__29444 {
-  display: none;
-}
 .newChannel__599fa {
   background: var(--hsl-main-color) !important;
   color: var(--text-strong);
