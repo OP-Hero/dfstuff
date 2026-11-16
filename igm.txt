@@ -1,0 +1,61 @@
+Let's make a game!
+    name:Test
+    by:Me
+    desc:A test.
+    created:16/11/2026
+    updated:16/11/2026
+    version:0
+
+Settings
+    building cost increase:200%
+    building cost refund:0%
+
+Layout
+    *resources
+        contains:Resources
+        header:Your resources!
+    
+    *buildings
+        contains:Buildings
+        header:The buildings you built!
+
+    *items
+        contains:Items
+
+    *upgrades
+        contains:Upgrades
+
+    *achievements
+        contains:Achievements
+
+    *stuff
+        contains:items, upgrades, achievements
+        desc:Your stuff!
+        names:hide
+        icons:hide
+
+Resources
+    *pie
+        name:Pie
+        desc:A delicious pie.
+    
+    *milk
+        name:milk
+        desc:Fresh milk
+
+
+Upgrades
+    *applePieRecipe
+        name:Apple pie recipe
+        desc:Unlocks the ability to make apple pies!
+    
+    *cherryPieRecipe
+        name:Cherry pie recipe
+        desc:Boy, you'll never guess!
+
+Buildings
+    *brownCow
+        name: Brown cow
+        desc:A big friendly cow that generates 1 milk per second.
+        cost:20 coins
+        on tick:give 1 milk
