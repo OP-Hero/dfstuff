@@ -30,7 +30,7 @@ Layout
 
     *stuff
         contains:items, upgrades, achievements
-        desc:Your stuff!
+        header:Your stuff!
         names:hide
         icons:hide
 
